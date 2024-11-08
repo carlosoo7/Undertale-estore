@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerson Shop</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <!-- Banner -->
+    <header id="Banner" class="bg-primary text-white text-left py-5">
+        <h1 id="P_Banner" >Bienvenidos a Gerson Shop</h1>
+        <p class="p_header"><strong> </strong></p>
+    </header>
+    <main>
+    <!-- Barra de Navegación -->
+    <section id="vars">
+    <nav id="var"class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a id="P_Text" class="navbar-brand" href="#">Gersons Shoop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a id="P_Text" class="nav-link" href="#productos">Productos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a  id="P_Text" class="nav-link" href="#contacto">Contacto</a>
+            </li>         
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+      
+    <!-- Galería de Productos -->
+    <section id="productos" class="container mt-5">
+        <h2 id="N_Productod" class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/sans.png" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 id="H_Text" class="card-title">Peluche Sans</h5>
+                        <p id="P_Text" class="card-text">Heh, ¿así que quieres un peluche de Sans, eh? Bueno, no puedo decir que esperaba menos de ti. Este peluche es casi tan guapo como yo, pero eso es mucho decir. Tiene mi estilo clásico: una sonrisa huesuda, mi chaqueta azul, y, claro, esas cuencas vacías pero llenas de actitud. Perfecto para esos momentos en los que necesitas un compañero que siempre esté "en los huesos".</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Papyrus.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 id="H_Text" class="card-title">Peluche Papyrus</h5>
+                        <p id="P_Text" class="card-text">¡NYYYEEEH HEH HEH! ¡HUMANO! ¡TE PRESENTO EL MEJOR PELUCHE JAMÁS CREADO, EL PELUCHE DE PAPYRUS! ¡Es como tener al GRAN PAPYRUS EN MINIATURA, SIENDO IGUAL DE FANTÁSTICO Y GENIAL COMO YO!
+
+                            MIRA ESOS DETALLES IMPECABLES: ¡MI ARMADURA BRILLANTE, MI CAPA ROJA ONDEANTE Y ESA SONRISA GANADORA QUE TE INSPIRARÁ A SER TAN INCREÍBLE COMO YO! ¡SIN DUDA, ESTE PELUCHE TE MOTIVARÁ A ENTRENAR Y HACER ESPAGUETI EXQUISITO TODOS LOS DÍAS!</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Flowey.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 id="H_Text"class="card-title">Peluche Flowey</h5>
+                        <p id="P_Text" class="card-text">Un peluche con mis perfectos pétalos amarillos, esos ojitos que todo lo ven... y, claro, mi sonrisa tan inocente. Jejeje... ¿Qué podría salir mal con una pequeña florecita como yo, eh? ¡Perfecto para esos momentos en los que necesitas un "amigo" que siempre esté... observándote!
+
+                            Vamos, ¿qué esperas? Llévame a casa... ¡prometo que seré muy divertido! Hee hee hee...</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="container mt-5">
+        <h2 id="contactotxt" class="text-center mb-4">Contáctanos</h2>
+        <form>
+            <div class="form-group">
+                <label id="P_Text" for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label id="P_Text" for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label  id="P_Text" for="mensaje">Mensaje</label>
+                <textarea id="mensaje" class="form-control"  rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <!-- Pie de Página -->
+    <footer id="foot" class="text-white text-center py-3 mt-0">
+        <p>&copy; 2024 Gerson Shopp. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script>
+    // Selecciona el navbar
+    const navbar = document.getElementById("vars");
+  
+    // Obtén la posición inicial del navbar desde la parte superior de la página
+    const navbarOffsetTop = navbar.offsetTop;
+  
+    // Función que verifica la posición del scroll
+    function fixNavbarOnScroll() {
+      if (window.scrollY >= navbarOffsetTop) {
+        navbar.classList.add("fixed"); // Fija el navbar
+      } else {
+        navbar.classList.remove("fixed"); // Retira la clase si volvemos a la parte superior
+      }
+    }
+  
+    // Ejecuta la función al hacer scroll
+    window.addEventListener("scroll", fixNavbarOnScroll);
+  </script>
+</body>
+</html>
