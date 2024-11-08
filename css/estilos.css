@@ -1,0 +1,110 @@
+/* Estilos personalizados */
+
+
+:root {
+    --color-primario: black;
+    --color-secundario: rgb(19, 79, 100);
+    --color-fondo: #f0f8ff;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+#Banner{
+    background-image: url(/img/Gerson.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#var{
+    
+    opacity: 85%;
+    
+}
+
+.fixed{
+    position: fixed;
+    top: 0;          
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+main{
+    background-image: url(/img/Fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--color-primario);
+    
+}
+
+.p_header{
+    padding-top: 15rem;
+    color: chartreuse;
+    font-size: 1.5rem;
+}
+
+#N_Productod{
+    color: white;
+}
+h1, h2 {
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top{
+    background-image: url(/img/Fondo3.jpg);
+}
+.card-body{
+    background-image: url(/img/Fondo3.jpg);
+    color: white;
+}
+#H_Text{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+#P_Text{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#P_Banner{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(202, 202, 202);
+}
+.form-group{
+    color: white;
+}
+#contactotxt{
+    color: white;
+}
+
+#mensaje{
+    background-color: var(--color-secundario);
+    
+}
+#email{
+    background-color: var(--color-secundario);;
+}
+#nombre{
+    background-color: var(--color-secundario);;
+}
+
+#foot{
+    background-color: black;
+    border: solid;
+    border-color: grey;
+}
